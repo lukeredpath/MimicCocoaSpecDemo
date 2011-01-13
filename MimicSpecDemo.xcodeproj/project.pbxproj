@@ -103,6 +103,8 @@
 		A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */; };
 		A34CFE3A12DE9CC6003E9972 /* mimicd in Resources */ = {isa = PBXBuildFile; fileRef = A34CFE3912DE9CC6003E9972 /* mimicd */; };
 		A34CFEAE12DEA453003E9972 /* MimicSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFEAD12DEA453003E9972 /* MimicSpec.m */; };
+		A34CFEC412DF34BD003E9972 /* MimicSpecWithWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFEC312DF34BD003E9972 /* MimicSpecWithWrapper.m */; };
+		A34CFEC812DF34E4003E9972 /* LRMimic.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFEC712DF34E4003E9972 /* LRMimic.m */; };
 		AA747D9F0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -317,6 +319,9 @@
 		A34CFE3912DE9CC6003E9972 /* mimicd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mimicd; sourceTree = "<group>"; };
 		A34CFE6012DEA000003E9972 /* OCHamcrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCHamcrest.h; path = External/OCHamcrest/Source/OCHamcrest.h; sourceTree = "<group>"; };
 		A34CFEAD12DEA453003E9972 /* MimicSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicSpec.m; sourceTree = "<group>"; };
+		A34CFEC312DF34BD003E9972 /* MimicSpecWithWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicSpecWithWrapper.m; sourceTree = "<group>"; };
+		A34CFEC612DF34E4003E9972 /* LRMimic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMimic.h; sourceTree = "<group>"; };
+		A34CFEC712DF34E4003E9972 /* LRMimic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMimic.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MimicSpecDemo_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libMimicSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMimicSpecDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -378,6 +383,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A34CFEC512DF34CD003E9972 /* LRMimic */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -696,8 +702,18 @@
 			isa = PBXGroup;
 			children = (
 				A34CFEAD12DEA453003E9972 /* MimicSpec.m */,
+				A34CFEC312DF34BD003E9972 /* MimicSpecWithWrapper.m */,
 			);
 			path = Specs;
+			sourceTree = "<group>";
+		};
+		A34CFEC512DF34CD003E9972 /* LRMimic */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFEC612DF34E4003E9972 /* LRMimic.h */,
+				A34CFEC712DF34E4003E9972 /* LRMimic.m */,
+			);
+			name = LRMimic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -933,6 +949,8 @@
 				A34CFE1C12DE9BB6003E9972 /* HCStringStartsWith.mm in Sources */,
 				A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */,
 				A34CFEAE12DEA453003E9972 /* MimicSpec.m in Sources */,
+				A34CFEC412DF34BD003E9972 /* MimicSpecWithWrapper.m in Sources */,
+				A34CFEC812DF34E4003E9972 /* LRMimic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

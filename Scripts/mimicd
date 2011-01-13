@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'rubygems'
+require 'daemons'
 require 'mimic'
 
 Daemons.run_proc("mimic") do

@@ -26,16 +26,22 @@ describe(@"Testing using Mimic to stub HTTP requests", ^{
       [req addHeader:@"Content-Type" value:@"application/plist"];
     }];
     
-    // configure the remote stub (Mimic running on localhost:11988)
-    [[LRResty client] post:@"http://localhost:11988/api/get" 
-                   payload:stubRequest(@"/ping", 200, @"pong") 
-                 withBlock:^(LRRestyResponse *response) {
-                     
-      if (response.status == 201) {  
+    // make sure all previous stubs are wiped out from other specs
+    [[LRResty client] post:@"http://localhost:11988/api/clear" payload:nil withBlock:^(LRRestyResponse *response) {
+      if (response.status == 200) {
         
-        // with the stub in place, let's send a request to the stubbed endpoint
-        [[LRResty client] get:@"http://localhost:11988/ping" withBlock:^(LRRestyResponse *response) {
-          responseBody = [[response asString] copy];
+        // configure the remote stub (Mimic running on localhost:11988)
+        [[LRResty client] post:@"http://localhost:11988/api/get" 
+                       payload:stubRequest(@"/ping", 200, @"pong") 
+                     withBlock:^(LRRestyResponse *response) {
+                       
+         if (response.status == 201) {  
+           
+           // with the stub in place, let's send a request to the stubbed endpoint
+           [[LRResty client] get:@"http://localhost:11988/ping" withBlock:^(LRRestyResponse *response) {
+             responseBody = [[response asString] copy];
+           }];
+         }
         }];
       }
     }];
