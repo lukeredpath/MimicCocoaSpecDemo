@@ -1,3 +1,6 @@
 [submodule "External/Kiwi"]
 	path = External/Kiwi
 	url = https://github.com/alding/Kiwi.git
+[submodule "External/OCHamcrest"]
+	path = External/OCHamcrest
+	url = https://github.com/360/OCHamcrest.git

@@ -66,6 +66,43 @@
 		A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3212DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m */; };
 		A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */; };
 		A34CFD7612DE98DE003E9972 /* MimicSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD6E12DE986E003E9972 /* MimicSpec.m */; };
+		A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD9712DE99BF003E9972 /* AssertEventually.m */; };
+		A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */; };
+		A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAC12DE9BB6003E9972 /* HCAnyOf.mm */; };
+		A34CFDFD12DE9BB6003E9972 /* HCDescribedAs.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAE12DE9BB6003E9972 /* HCDescribedAs.mm */; };
+		A34CFDFE12DE9BB6003E9972 /* HCIs.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDB012DE9BB6003E9972 /* HCIs.mm */; };
+		A34CFDFF12DE9BB6003E9972 /* HCIsAnything.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDB212DE9BB6003E9972 /* HCIsAnything.mm */; };
+		A34CFE0012DE9BB6003E9972 /* HCIsEqual.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDB412DE9BB6003E9972 /* HCIsEqual.mm */; };
+		A34CFE0112DE9BB6003E9972 /* HCIsInstanceOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDB612DE9BB6003E9972 /* HCIsInstanceOf.mm */; };
+		A34CFE0212DE9BB6003E9972 /* HCIsNil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDB812DE9BB6003E9972 /* HCIsNil.mm */; };
+		A34CFE0312DE9BB6003E9972 /* HCIsNot.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDBA12DE9BB6003E9972 /* HCIsNot.mm */; };
+		A34CFE0412DE9BB6003E9972 /* HCIsSame.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDBC12DE9BB6003E9972 /* HCIsSame.mm */; };
+		A34CFE0512DE9BB6003E9972 /* HCBaseDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDBE12DE9BB6003E9972 /* HCBaseDescription.mm */; };
+		A34CFE0612DE9BB6003E9972 /* HCBaseMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDC012DE9BB6003E9972 /* HCBaseMatcher.mm */; };
+		A34CFE0712DE9BB6003E9972 /* HCInvocationMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDC312DE9BB6003E9972 /* HCInvocationMatcher.mm */; };
+		A34CFE0812DE9BB6003E9972 /* HCMatcherAssert.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDC612DE9BB6003E9972 /* HCMatcherAssert.mm */; };
+		A34CFE0912DE9BB6003E9972 /* HCStringDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDC912DE9BB6003E9972 /* HCStringDescription.mm */; };
+		A34CFE0A12DE9BB6003E9972 /* HCWrapInMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDCB12DE9BB6003E9972 /* HCWrapInMatcher.mm */; };
+		A34CFE0B12DE9BB6003E9972 /* HCCollectMatchers.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDCE12DE9BB6003E9972 /* HCCollectMatchers.mm */; };
+		A34CFE0C12DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDD112DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.mm */; };
+		A34CFE0D12DE9BB6003E9972 /* HCIsCollectionContaining.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDD512DE9BB6003E9972 /* HCIsCollectionContaining.mm */; };
+		A34CFE0E12DE9BB6003E9972 /* HCIsCollectionOnlyContaining.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDD712DE9BB6003E9972 /* HCIsCollectionOnlyContaining.mm */; };
+		A34CFE0F12DE9BB6003E9972 /* HCIsDictionaryContaining.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDD912DE9BB6003E9972 /* HCIsDictionaryContaining.mm */; };
+		A34CFE1012DE9BB6003E9972 /* HCIsDictionaryContainingKey.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDDB12DE9BB6003E9972 /* HCIsDictionaryContainingKey.mm */; };
+		A34CFE1112DE9BB6003E9972 /* HCIsDictionaryContainingValue.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDDD12DE9BB6003E9972 /* HCIsDictionaryContainingValue.mm */; };
+		A34CFE1212DE9BB6003E9972 /* HCIsIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDDF12DE9BB6003E9972 /* HCIsIn.mm */; };
+		A34CFE1312DE9BB6003E9972 /* HCIsCloseTo.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDE312DE9BB6003E9972 /* HCIsCloseTo.mm */; };
+		A34CFE1412DE9BB6003E9972 /* HCIsEqualToNumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDE512DE9BB6003E9972 /* HCIsEqualToNumber.mm */; };
+		A34CFE1512DE9BB6003E9972 /* HCNumberAssert.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDE712DE9BB6003E9972 /* HCNumberAssert.mm */; };
+		A34CFE1612DE9BB6003E9972 /* HCOrderingComparison.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDE912DE9BB6003E9972 /* HCOrderingComparison.mm */; };
+		A34CFE1712DE9BB6003E9972 /* HCHasDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDEC12DE9BB6003E9972 /* HCHasDescription.mm */; };
+		A34CFE1812DE9BB6003E9972 /* HCIsEqualIgnoringCase.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDEF12DE9BB6003E9972 /* HCIsEqualIgnoringCase.mm */; };
+		A34CFE1912DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDF112DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.mm */; };
+		A34CFE1A12DE9BB6003E9972 /* HCStringContains.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDF412DE9BB6003E9972 /* HCStringContains.mm */; };
+		A34CFE1B12DE9BB6003E9972 /* HCStringEndsWith.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDF612DE9BB6003E9972 /* HCStringEndsWith.mm */; };
+		A34CFE1C12DE9BB6003E9972 /* HCStringStartsWith.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDF812DE9BB6003E9972 /* HCStringStartsWith.mm */; };
+		A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */; };
+		A34CFE3A12DE9CC6003E9972 /* mimicd in Resources */ = {isa = PBXBuildFile; fileRef = A34CFE3912DE9CC6003E9972 /* mimicd */; };
 		AA747D9F0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -200,6 +237,86 @@
 		A34CFD3312DE985C003E9972 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
 		A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+KiwiAdditions.m"; sourceTree = "<group>"; };
 		A34CFD6E12DE986E003E9972 /* MimicSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicSpec.m; sourceTree = "<group>"; };
+		A34CFD9612DE99BF003E9972 /* AssertEventually.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssertEventually.h; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.h"; sourceTree = SOURCE_ROOT; };
+		A34CFD9712DE99BF003E9972 /* AssertEventually.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssertEventually.m; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.m"; sourceTree = SOURCE_ROOT; };
+		A34CFDA912DE9BB6003E9972 /* HCAllOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAllOf.h; sourceTree = "<group>"; };
+		A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCAllOf.mm; sourceTree = "<group>"; };
+		A34CFDAB12DE9BB6003E9972 /* HCAnyOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAnyOf.h; sourceTree = "<group>"; };
+		A34CFDAC12DE9BB6003E9972 /* HCAnyOf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCAnyOf.mm; sourceTree = "<group>"; };
+		A34CFDAD12DE9BB6003E9972 /* HCDescribedAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDescribedAs.h; sourceTree = "<group>"; };
+		A34CFDAE12DE9BB6003E9972 /* HCDescribedAs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCDescribedAs.mm; sourceTree = "<group>"; };
+		A34CFDAF12DE9BB6003E9972 /* HCIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIs.h; sourceTree = "<group>"; };
+		A34CFDB012DE9BB6003E9972 /* HCIs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIs.mm; sourceTree = "<group>"; };
+		A34CFDB112DE9BB6003E9972 /* HCIsAnything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsAnything.h; sourceTree = "<group>"; };
+		A34CFDB212DE9BB6003E9972 /* HCIsAnything.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsAnything.mm; sourceTree = "<group>"; };
+		A34CFDB312DE9BB6003E9972 /* HCIsEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqual.h; sourceTree = "<group>"; };
+		A34CFDB412DE9BB6003E9972 /* HCIsEqual.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsEqual.mm; sourceTree = "<group>"; };
+		A34CFDB512DE9BB6003E9972 /* HCIsInstanceOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsInstanceOf.h; sourceTree = "<group>"; };
+		A34CFDB612DE9BB6003E9972 /* HCIsInstanceOf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsInstanceOf.mm; sourceTree = "<group>"; };
+		A34CFDB712DE9BB6003E9972 /* HCIsNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsNil.h; sourceTree = "<group>"; };
+		A34CFDB812DE9BB6003E9972 /* HCIsNil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsNil.mm; sourceTree = "<group>"; };
+		A34CFDB912DE9BB6003E9972 /* HCIsNot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsNot.h; sourceTree = "<group>"; };
+		A34CFDBA12DE9BB6003E9972 /* HCIsNot.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsNot.mm; sourceTree = "<group>"; };
+		A34CFDBB12DE9BB6003E9972 /* HCIsSame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsSame.h; sourceTree = "<group>"; };
+		A34CFDBC12DE9BB6003E9972 /* HCIsSame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsSame.mm; sourceTree = "<group>"; };
+		A34CFDBD12DE9BB6003E9972 /* HCBaseDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseDescription.h; sourceTree = "<group>"; };
+		A34CFDBE12DE9BB6003E9972 /* HCBaseDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCBaseDescription.mm; sourceTree = "<group>"; };
+		A34CFDBF12DE9BB6003E9972 /* HCBaseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseMatcher.h; sourceTree = "<group>"; };
+		A34CFDC012DE9BB6003E9972 /* HCBaseMatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCBaseMatcher.mm; sourceTree = "<group>"; };
+		A34CFDC112DE9BB6003E9972 /* HCDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDescription.h; sourceTree = "<group>"; };
+		A34CFDC212DE9BB6003E9972 /* HCInvocationMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCInvocationMatcher.h; sourceTree = "<group>"; };
+		A34CFDC312DE9BB6003E9972 /* HCInvocationMatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCInvocationMatcher.mm; sourceTree = "<group>"; };
+		A34CFDC412DE9BB6003E9972 /* HCMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMatcher.h; sourceTree = "<group>"; };
+		A34CFDC512DE9BB6003E9972 /* HCMatcherAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMatcherAssert.h; sourceTree = "<group>"; };
+		A34CFDC612DE9BB6003E9972 /* HCMatcherAssert.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCMatcherAssert.mm; sourceTree = "<group>"; };
+		A34CFDC712DE9BB6003E9972 /* HCSelfDescribing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSelfDescribing.h; sourceTree = "<group>"; };
+		A34CFDC812DE9BB6003E9972 /* HCStringDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCStringDescription.h; sourceTree = "<group>"; };
+		A34CFDC912DE9BB6003E9972 /* HCStringDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCStringDescription.mm; sourceTree = "<group>"; };
+		A34CFDCA12DE9BB6003E9972 /* HCWrapInMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCWrapInMatcher.h; sourceTree = "<group>"; };
+		A34CFDCB12DE9BB6003E9972 /* HCWrapInMatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCWrapInMatcher.mm; sourceTree = "<group>"; };
+		A34CFDCD12DE9BB6003E9972 /* HCCollectMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCollectMatchers.h; sourceTree = "<group>"; };
+		A34CFDCE12DE9BB6003E9972 /* HCCollectMatchers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCCollectMatchers.mm; sourceTree = "<group>"; };
+		A34CFDCF12DE9BB6003E9972 /* HCIntegerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIntegerTypes.h; sourceTree = "<group>"; };
+		A34CFDD012DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_HCSelfDescribingValue.h; sourceTree = "<group>"; };
+		A34CFDD112DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NSObject_HCSelfDescribingValue.mm; sourceTree = "<group>"; };
+		A34CFDD412DE9BB6003E9972 /* HCIsCollectionContaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsCollectionContaining.h; sourceTree = "<group>"; };
+		A34CFDD512DE9BB6003E9972 /* HCIsCollectionContaining.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsCollectionContaining.mm; sourceTree = "<group>"; };
+		A34CFDD612DE9BB6003E9972 /* HCIsCollectionOnlyContaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsCollectionOnlyContaining.h; sourceTree = "<group>"; };
+		A34CFDD712DE9BB6003E9972 /* HCIsCollectionOnlyContaining.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsCollectionOnlyContaining.mm; sourceTree = "<group>"; };
+		A34CFDD812DE9BB6003E9972 /* HCIsDictionaryContaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsDictionaryContaining.h; sourceTree = "<group>"; };
+		A34CFDD912DE9BB6003E9972 /* HCIsDictionaryContaining.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsDictionaryContaining.mm; sourceTree = "<group>"; };
+		A34CFDDA12DE9BB6003E9972 /* HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsDictionaryContainingKey.h; sourceTree = "<group>"; };
+		A34CFDDB12DE9BB6003E9972 /* HCIsDictionaryContainingKey.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsDictionaryContainingKey.mm; sourceTree = "<group>"; };
+		A34CFDDC12DE9BB6003E9972 /* HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsDictionaryContainingValue.h; sourceTree = "<group>"; };
+		A34CFDDD12DE9BB6003E9972 /* HCIsDictionaryContainingValue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsDictionaryContainingValue.mm; sourceTree = "<group>"; };
+		A34CFDDE12DE9BB6003E9972 /* HCIsIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsIn.h; sourceTree = "<group>"; };
+		A34CFDDF12DE9BB6003E9972 /* HCIsIn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsIn.mm; sourceTree = "<group>"; };
+		A34CFDE112DE9BB6003E9972 /* HCBoxNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBoxNumber.h; sourceTree = "<group>"; };
+		A34CFDE212DE9BB6003E9972 /* HCIsCloseTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsCloseTo.h; sourceTree = "<group>"; };
+		A34CFDE312DE9BB6003E9972 /* HCIsCloseTo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsCloseTo.mm; sourceTree = "<group>"; };
+		A34CFDE412DE9BB6003E9972 /* HCIsEqualToNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToNumber.h; sourceTree = "<group>"; };
+		A34CFDE512DE9BB6003E9972 /* HCIsEqualToNumber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsEqualToNumber.mm; sourceTree = "<group>"; };
+		A34CFDE612DE9BB6003E9972 /* HCNumberAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNumberAssert.h; sourceTree = "<group>"; };
+		A34CFDE712DE9BB6003E9972 /* HCNumberAssert.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCNumberAssert.mm; sourceTree = "<group>"; };
+		A34CFDE812DE9BB6003E9972 /* HCOrderingComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCOrderingComparison.h; sourceTree = "<group>"; };
+		A34CFDE912DE9BB6003E9972 /* HCOrderingComparison.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCOrderingComparison.mm; sourceTree = "<group>"; };
+		A34CFDEB12DE9BB6003E9972 /* HCHasDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCHasDescription.h; sourceTree = "<group>"; };
+		A34CFDEC12DE9BB6003E9972 /* HCHasDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCHasDescription.mm; sourceTree = "<group>"; };
+		A34CFDEE12DE9BB6003E9972 /* HCIsEqualIgnoringCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualIgnoringCase.h; sourceTree = "<group>"; };
+		A34CFDEF12DE9BB6003E9972 /* HCIsEqualIgnoringCase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsEqualIgnoringCase.mm; sourceTree = "<group>"; };
+		A34CFDF012DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualIgnoringWhiteSpace.h; sourceTree = "<group>"; };
+		A34CFDF112DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCIsEqualIgnoringWhiteSpace.mm; sourceTree = "<group>"; };
+		A34CFDF212DE9BB6003E9972 /* HCRequireNonNilString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRequireNonNilString.h; sourceTree = "<group>"; };
+		A34CFDF312DE9BB6003E9972 /* HCStringContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCStringContains.h; sourceTree = "<group>"; };
+		A34CFDF412DE9BB6003E9972 /* HCStringContains.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCStringContains.mm; sourceTree = "<group>"; };
+		A34CFDF512DE9BB6003E9972 /* HCStringEndsWith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCStringEndsWith.h; sourceTree = "<group>"; };
+		A34CFDF612DE9BB6003E9972 /* HCStringEndsWith.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCStringEndsWith.mm; sourceTree = "<group>"; };
+		A34CFDF712DE9BB6003E9972 /* HCStringStartsWith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCStringStartsWith.h; sourceTree = "<group>"; };
+		A34CFDF812DE9BB6003E9972 /* HCStringStartsWith.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCStringStartsWith.mm; sourceTree = "<group>"; };
+		A34CFDF912DE9BB6003E9972 /* HCSubstringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSubstringMatcher.h; sourceTree = "<group>"; };
+		A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCSubstringMatcher.mm; sourceTree = "<group>"; };
+		A34CFE3912DE9CC6003E9972 /* mimicd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mimicd; sourceTree = "<group>"; };
+		A34CFE6012DEA000003E9972 /* OCHamcrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCHamcrest.h; path = External/OCHamcrest/Source/OCHamcrest.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MimicSpecDemo_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libMimicSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMimicSpecDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +360,7 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				A34CFE3812DE9CC6003E9972 /* Scripts */,
 				A34CFC9312DE97AD003E9972 /* Specs-Info.plist */,
 			);
 			name = MimicSpecDemo;
@@ -283,6 +401,9 @@
 		A34CFCA112DE982B003E9972 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				A34CFDA312DE9B8F003E9972 /* Hamcrest */,
+				A34CFD9612DE99BF003E9972 /* AssertEventually.h */,
+				A34CFD9712DE99BF003E9972 /* AssertEventually.m */,
 				A34CFCB712DE985C003E9972 /* Kiwi */,
 			);
 			name = External;
@@ -421,6 +542,164 @@
 			path = External/Kiwi/Kiwi;
 			sourceTree = "<group>";
 		};
+		A34CFDA312DE9B8F003E9972 /* Hamcrest */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFE6012DEA000003E9972 /* OCHamcrest.h */,
+				A34CFDA712DE9BB6003E9972 /* Core */,
+				A34CFDD212DE9BB6003E9972 /* Library */,
+			);
+			name = Hamcrest;
+			sourceTree = "<group>";
+		};
+		A34CFDA712DE9BB6003E9972 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDA812DE9BB6003E9972 /* Core */,
+				A34CFDBD12DE9BB6003E9972 /* HCBaseDescription.h */,
+				A34CFDBE12DE9BB6003E9972 /* HCBaseDescription.mm */,
+				A34CFDBF12DE9BB6003E9972 /* HCBaseMatcher.h */,
+				A34CFDC012DE9BB6003E9972 /* HCBaseMatcher.mm */,
+				A34CFDC112DE9BB6003E9972 /* HCDescription.h */,
+				A34CFDC212DE9BB6003E9972 /* HCInvocationMatcher.h */,
+				A34CFDC312DE9BB6003E9972 /* HCInvocationMatcher.mm */,
+				A34CFDC412DE9BB6003E9972 /* HCMatcher.h */,
+				A34CFDC512DE9BB6003E9972 /* HCMatcherAssert.h */,
+				A34CFDC612DE9BB6003E9972 /* HCMatcherAssert.mm */,
+				A34CFDC712DE9BB6003E9972 /* HCSelfDescribing.h */,
+				A34CFDC812DE9BB6003E9972 /* HCStringDescription.h */,
+				A34CFDC912DE9BB6003E9972 /* HCStringDescription.mm */,
+				A34CFDCA12DE9BB6003E9972 /* HCWrapInMatcher.h */,
+				A34CFDCB12DE9BB6003E9972 /* HCWrapInMatcher.mm */,
+				A34CFDCC12DE9BB6003E9972 /* Internal */,
+			);
+			name = Core;
+			path = External/OCHamcrest/Source/Core;
+			sourceTree = "<group>";
+		};
+		A34CFDA812DE9BB6003E9972 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDA912DE9BB6003E9972 /* HCAllOf.h */,
+				A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */,
+				A34CFDAB12DE9BB6003E9972 /* HCAnyOf.h */,
+				A34CFDAC12DE9BB6003E9972 /* HCAnyOf.mm */,
+				A34CFDAD12DE9BB6003E9972 /* HCDescribedAs.h */,
+				A34CFDAE12DE9BB6003E9972 /* HCDescribedAs.mm */,
+				A34CFDAF12DE9BB6003E9972 /* HCIs.h */,
+				A34CFDB012DE9BB6003E9972 /* HCIs.mm */,
+				A34CFDB112DE9BB6003E9972 /* HCIsAnything.h */,
+				A34CFDB212DE9BB6003E9972 /* HCIsAnything.mm */,
+				A34CFDB312DE9BB6003E9972 /* HCIsEqual.h */,
+				A34CFDB412DE9BB6003E9972 /* HCIsEqual.mm */,
+				A34CFDB512DE9BB6003E9972 /* HCIsInstanceOf.h */,
+				A34CFDB612DE9BB6003E9972 /* HCIsInstanceOf.mm */,
+				A34CFDB712DE9BB6003E9972 /* HCIsNil.h */,
+				A34CFDB812DE9BB6003E9972 /* HCIsNil.mm */,
+				A34CFDB912DE9BB6003E9972 /* HCIsNot.h */,
+				A34CFDBA12DE9BB6003E9972 /* HCIsNot.mm */,
+				A34CFDBB12DE9BB6003E9972 /* HCIsSame.h */,
+				A34CFDBC12DE9BB6003E9972 /* HCIsSame.mm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A34CFDCC12DE9BB6003E9972 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDCD12DE9BB6003E9972 /* HCCollectMatchers.h */,
+				A34CFDCE12DE9BB6003E9972 /* HCCollectMatchers.mm */,
+				A34CFDCF12DE9BB6003E9972 /* HCIntegerTypes.h */,
+				A34CFDD012DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.h */,
+				A34CFDD112DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.mm */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		A34CFDD212DE9BB6003E9972 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDD312DE9BB6003E9972 /* Collection */,
+				A34CFDE012DE9BB6003E9972 /* Number */,
+				A34CFDEA12DE9BB6003E9972 /* Object */,
+				A34CFDED12DE9BB6003E9972 /* Text */,
+			);
+			name = Library;
+			path = External/OCHamcrest/Source/Library;
+			sourceTree = "<group>";
+		};
+		A34CFDD312DE9BB6003E9972 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDD412DE9BB6003E9972 /* HCIsCollectionContaining.h */,
+				A34CFDD512DE9BB6003E9972 /* HCIsCollectionContaining.mm */,
+				A34CFDD612DE9BB6003E9972 /* HCIsCollectionOnlyContaining.h */,
+				A34CFDD712DE9BB6003E9972 /* HCIsCollectionOnlyContaining.mm */,
+				A34CFDD812DE9BB6003E9972 /* HCIsDictionaryContaining.h */,
+				A34CFDD912DE9BB6003E9972 /* HCIsDictionaryContaining.mm */,
+				A34CFDDA12DE9BB6003E9972 /* HCIsDictionaryContainingKey.h */,
+				A34CFDDB12DE9BB6003E9972 /* HCIsDictionaryContainingKey.mm */,
+				A34CFDDC12DE9BB6003E9972 /* HCIsDictionaryContainingValue.h */,
+				A34CFDDD12DE9BB6003E9972 /* HCIsDictionaryContainingValue.mm */,
+				A34CFDDE12DE9BB6003E9972 /* HCIsIn.h */,
+				A34CFDDF12DE9BB6003E9972 /* HCIsIn.mm */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		A34CFDE012DE9BB6003E9972 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDE112DE9BB6003E9972 /* HCBoxNumber.h */,
+				A34CFDE212DE9BB6003E9972 /* HCIsCloseTo.h */,
+				A34CFDE312DE9BB6003E9972 /* HCIsCloseTo.mm */,
+				A34CFDE412DE9BB6003E9972 /* HCIsEqualToNumber.h */,
+				A34CFDE512DE9BB6003E9972 /* HCIsEqualToNumber.mm */,
+				A34CFDE612DE9BB6003E9972 /* HCNumberAssert.h */,
+				A34CFDE712DE9BB6003E9972 /* HCNumberAssert.mm */,
+				A34CFDE812DE9BB6003E9972 /* HCOrderingComparison.h */,
+				A34CFDE912DE9BB6003E9972 /* HCOrderingComparison.mm */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		A34CFDEA12DE9BB6003E9972 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDEB12DE9BB6003E9972 /* HCHasDescription.h */,
+				A34CFDEC12DE9BB6003E9972 /* HCHasDescription.mm */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		A34CFDED12DE9BB6003E9972 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFDEE12DE9BB6003E9972 /* HCIsEqualIgnoringCase.h */,
+				A34CFDEF12DE9BB6003E9972 /* HCIsEqualIgnoringCase.mm */,
+				A34CFDF012DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.h */,
+				A34CFDF112DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.mm */,
+				A34CFDF212DE9BB6003E9972 /* HCRequireNonNilString.h */,
+				A34CFDF312DE9BB6003E9972 /* HCStringContains.h */,
+				A34CFDF412DE9BB6003E9972 /* HCStringContains.mm */,
+				A34CFDF512DE9BB6003E9972 /* HCStringEndsWith.h */,
+				A34CFDF612DE9BB6003E9972 /* HCStringEndsWith.mm */,
+				A34CFDF712DE9BB6003E9972 /* HCStringStartsWith.h */,
+				A34CFDF812DE9BB6003E9972 /* HCStringStartsWith.mm */,
+				A34CFDF912DE9BB6003E9972 /* HCSubstringMatcher.h */,
+				A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		A34CFE3812DE9CC6003E9972 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFE3912DE9CC6003E9972 /* mimicd */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -439,10 +718,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A34CFC9612DE97AD003E9972 /* Build configuration list for PBXNativeTarget "Specs" */;
 			buildPhases = (
+				A34CFE3612DE9C8F003E9972 /* Start Mimic Daemon */,
 				A34CFC8D12DE97AD003E9972 /* Resources */,
 				A34CFC8E12DE97AD003E9972 /* Sources */,
 				A34CFC8F12DE97AD003E9972 /* Frameworks */,
 				A34CFC9012DE97AD003E9972 /* ShellScript */,
+				A34CFE3C12DE9CE8003E9972 /* Stop Mimic Daemon */,
 			);
 			buildRules = (
 			);
@@ -501,6 +782,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34CFE3A12DE9CC6003E9972 /* mimicd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +801,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A34CFE3612DE9C8F003E9972 /* Start Mimic Daemon */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Start Mimic Daemon";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source ~/.profile && bundle exec ./Scripts/mimicd start";
+			showEnvVarsInLog = 0;
+		};
+		A34CFE3C12DE9CE8003E9972 /* Stop Mimic Daemon */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Stop Mimic Daemon";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source ~/.profile && bundle exec ./Scripts/mimicd stop";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -585,6 +897,42 @@
 				A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */,
 				A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */,
 				A34CFD7612DE98DE003E9972 /* MimicSpec.m in Sources */,
+				A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */,
+				A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */,
+				A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */,
+				A34CFDFD12DE9BB6003E9972 /* HCDescribedAs.mm in Sources */,
+				A34CFDFE12DE9BB6003E9972 /* HCIs.mm in Sources */,
+				A34CFDFF12DE9BB6003E9972 /* HCIsAnything.mm in Sources */,
+				A34CFE0012DE9BB6003E9972 /* HCIsEqual.mm in Sources */,
+				A34CFE0112DE9BB6003E9972 /* HCIsInstanceOf.mm in Sources */,
+				A34CFE0212DE9BB6003E9972 /* HCIsNil.mm in Sources */,
+				A34CFE0312DE9BB6003E9972 /* HCIsNot.mm in Sources */,
+				A34CFE0412DE9BB6003E9972 /* HCIsSame.mm in Sources */,
+				A34CFE0512DE9BB6003E9972 /* HCBaseDescription.mm in Sources */,
+				A34CFE0612DE9BB6003E9972 /* HCBaseMatcher.mm in Sources */,
+				A34CFE0712DE9BB6003E9972 /* HCInvocationMatcher.mm in Sources */,
+				A34CFE0812DE9BB6003E9972 /* HCMatcherAssert.mm in Sources */,
+				A34CFE0912DE9BB6003E9972 /* HCStringDescription.mm in Sources */,
+				A34CFE0A12DE9BB6003E9972 /* HCWrapInMatcher.mm in Sources */,
+				A34CFE0B12DE9BB6003E9972 /* HCCollectMatchers.mm in Sources */,
+				A34CFE0C12DE9BB6003E9972 /* NSObject_HCSelfDescribingValue.mm in Sources */,
+				A34CFE0D12DE9BB6003E9972 /* HCIsCollectionContaining.mm in Sources */,
+				A34CFE0E12DE9BB6003E9972 /* HCIsCollectionOnlyContaining.mm in Sources */,
+				A34CFE0F12DE9BB6003E9972 /* HCIsDictionaryContaining.mm in Sources */,
+				A34CFE1012DE9BB6003E9972 /* HCIsDictionaryContainingKey.mm in Sources */,
+				A34CFE1112DE9BB6003E9972 /* HCIsDictionaryContainingValue.mm in Sources */,
+				A34CFE1212DE9BB6003E9972 /* HCIsIn.mm in Sources */,
+				A34CFE1312DE9BB6003E9972 /* HCIsCloseTo.mm in Sources */,
+				A34CFE1412DE9BB6003E9972 /* HCIsEqualToNumber.mm in Sources */,
+				A34CFE1512DE9BB6003E9972 /* HCNumberAssert.mm in Sources */,
+				A34CFE1612DE9BB6003E9972 /* HCOrderingComparison.mm in Sources */,
+				A34CFE1712DE9BB6003E9972 /* HCHasDescription.mm in Sources */,
+				A34CFE1812DE9BB6003E9972 /* HCIsEqualIgnoringCase.mm in Sources */,
+				A34CFE1912DE9BB6003E9972 /* HCIsEqualIgnoringWhiteSpace.mm in Sources */,
+				A34CFE1A12DE9BB6003E9972 /* HCStringContains.mm in Sources */,
+				A34CFE1B12DE9BB6003E9972 /* HCStringEndsWith.mm in Sources */,
+				A34CFE1C12DE9BB6003E9972 /* HCStringStartsWith.mm in Sources */,
+				A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
