@@ -52,7 +52,7 @@ typedef void (^LRMimicCallback)(BOOL);
 + (id)stub:(NSString *)path;
 + (id)stub:(NSString *)path method:(NSString *)method;
 - (id)initWithPath:(NSString *)aPath method:(NSString *)HTTPMethod;
-- (void)andReturnResponse:(NSString *)responseBody withStatus:(NSInteger)statusCode;
+- (void)willReturnResponse:(NSString *)responseBody withStatus:(NSInteger)statusCode;
 - (NSDictionary *)toDictionary;
 @end
 

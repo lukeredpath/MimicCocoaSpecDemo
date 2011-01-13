@@ -226,7 +226,7 @@ static BOOL automaticallyClearStubs = NO;
   [super dealloc];
 }
 
-- (void)andReturnResponse:(NSString *)responseBody withStatus:(NSInteger)statusCode;
+- (void)willReturnResponse:(NSString *)responseBody withStatus:(NSInteger)statusCode;
 {
   body = [responseBody copy];
   code = statusCode;

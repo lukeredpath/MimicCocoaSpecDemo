@@ -27,7 +27,7 @@ describe(@"Testing using Mimic to stub HTTP requests with an Objective-C wrapper
     __block NSString *responseBody = nil;
 
     [LRMimic configure:^(LRMimic *mimic) {
-      [[mimic get:@"/ping"] andReturnResponse:@"pong" withStatus:200];
+      [[mimic get:@"/ping"] willReturnResponse:@"pong" withStatus:200];
     }];
     
     [LRMimic stubAndCall:^(BOOL success) {
@@ -46,8 +46,8 @@ describe(@"Testing using Mimic to stub HTTP requests with an Objective-C wrapper
     __block NSString *responseBodyTwo = nil;
     
     [LRMimic configure:^(LRMimic *mimic) {
-      [[mimic get:@"/ping"] andReturnResponse:@"pong" withStatus:200];
-      [[mimic get:@"/wiff"] andReturnResponse:@"waff" withStatus:200];
+      [[mimic get:@"/ping"] willReturnResponse:@"pong" withStatus:200];
+      [[mimic get:@"/wiff"] willReturnResponse:@"waff" withStatus:200];
     }];
     
     [LRMimic stubAndCall:^(BOOL success) {
