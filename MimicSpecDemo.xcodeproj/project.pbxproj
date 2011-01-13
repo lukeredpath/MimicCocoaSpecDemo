@@ -65,7 +65,6 @@
 		A34CFD6B12DE985C003E9972 /* NSObject+KiwiStubAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3012DE985C003E9972 /* NSObject+KiwiStubAdditions.m */; };
 		A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3212DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m */; };
 		A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */; };
-		A34CFD7612DE98DE003E9972 /* MimicSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD6E12DE986E003E9972 /* MimicSpec.m */; };
 		A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD9712DE99BF003E9972 /* AssertEventually.m */; };
 		A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */; };
 		A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAC12DE9BB6003E9972 /* HCAnyOf.mm */; };
@@ -103,6 +102,7 @@
 		A34CFE1C12DE9BB6003E9972 /* HCStringStartsWith.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDF812DE9BB6003E9972 /* HCStringStartsWith.mm */; };
 		A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */; };
 		A34CFE3A12DE9CC6003E9972 /* mimicd in Resources */ = {isa = PBXBuildFile; fileRef = A34CFE3912DE9CC6003E9972 /* mimicd */; };
+		A34CFEAE12DEA453003E9972 /* MimicSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFEAD12DEA453003E9972 /* MimicSpec.m */; };
 		AA747D9F0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -236,7 +236,6 @@
 		A34CFD3212DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
 		A34CFD3312DE985C003E9972 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
 		A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+KiwiAdditions.m"; sourceTree = "<group>"; };
-		A34CFD6E12DE986E003E9972 /* MimicSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicSpec.m; sourceTree = "<group>"; };
 		A34CFD9612DE99BF003E9972 /* AssertEventually.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssertEventually.h; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.h"; sourceTree = SOURCE_ROOT; };
 		A34CFD9712DE99BF003E9972 /* AssertEventually.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssertEventually.m; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.m"; sourceTree = SOURCE_ROOT; };
 		A34CFDA912DE9BB6003E9972 /* HCAllOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAllOf.h; sourceTree = "<group>"; };
@@ -317,6 +316,7 @@
 		A34CFDFA12DE9BB6003E9972 /* HCSubstringMatcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCSubstringMatcher.mm; sourceTree = "<group>"; };
 		A34CFE3912DE9CC6003E9972 /* mimicd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mimicd; sourceTree = "<group>"; };
 		A34CFE6012DEA000003E9972 /* OCHamcrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCHamcrest.h; path = External/OCHamcrest/Source/OCHamcrest.h; sourceTree = "<group>"; };
+		A34CFEAD12DEA453003E9972 /* MimicSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicSpec.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MimicSpecDemo_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libMimicSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMimicSpecDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -354,8 +354,8 @@
 		0867D691FE84028FC02AAC07 /* MimicSpecDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A34CFEAC12DEA453003E9972 /* Specs */,
 				A34CFCA112DE982B003E9972 /* External */,
-				A34CFC8A12DE979C003E9972 /* Specs */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -388,14 +388,6 @@
 				AA747D9E0F9514B9006C5449 /* MimicSpecDemo_Prefix.pch */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		A34CFC8A12DE979C003E9972 /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				A34CFD6E12DE986E003E9972 /* MimicSpec.m */,
-			);
-			name = Specs;
 			sourceTree = "<group>";
 		};
 		A34CFCA112DE982B003E9972 /* External */ = {
@@ -700,6 +692,14 @@
 			path = Scripts;
 			sourceTree = "<group>";
 		};
+		A34CFEAC12DEA453003E9972 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				A34CFEAD12DEA453003E9972 /* MimicSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -896,7 +896,6 @@
 				A34CFD6B12DE985C003E9972 /* NSObject+KiwiStubAdditions.m in Sources */,
 				A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */,
 				A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */,
-				A34CFD7612DE98DE003E9972 /* MimicSpec.m in Sources */,
 				A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */,
 				A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */,
 				A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */,
@@ -933,6 +932,7 @@
 				A34CFE1B12DE9BB6003E9972 /* HCStringEndsWith.mm in Sources */,
 				A34CFE1C12DE9BB6003E9972 /* HCStringStartsWith.mm in Sources */,
 				A34CFE1D12DE9BB6003E9972 /* HCSubstringMatcher.mm in Sources */,
+				A34CFEAE12DEA453003E9972 /* MimicSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
