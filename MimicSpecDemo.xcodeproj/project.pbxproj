@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A34C001312DF4808003E9972 /* LRMimic.m in Sources */ = {isa = PBXBuildFile; fileRef = A34C001212DF4808003E9972 /* LRMimic.m */; };
+		A34C00CF12DF5405003E9972 /* AssertEventually.m in Sources */ = {isa = PBXBuildFile; fileRef = A34C00CE12DF5405003E9972 /* AssertEventually.m */; };
 		A34CFCA312DE983E003E9972 /* LRResty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34CFCA212DE983E003E9972 /* LRResty.framework */; };
 		A34CFD3512DE985C003E9972 /* KWAfterAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFCBC12DE985C003E9972 /* KWAfterAllNode.m */; };
 		A34CFD3612DE985C003E9972 /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFCBE12DE985C003E9972 /* KWAfterEachNode.m */; };
@@ -66,7 +67,6 @@
 		A34CFD6B12DE985C003E9972 /* NSObject+KiwiStubAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3012DE985C003E9972 /* NSObject+KiwiStubAdditions.m */; };
 		A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3212DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m */; };
 		A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */; };
-		A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */ = {isa = PBXBuildFile; fileRef = A34CFD9712DE99BF003E9972 /* AssertEventually.m */; };
 		A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */; };
 		A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAC12DE9BB6003E9972 /* HCAnyOf.mm */; };
 		A34CFDFD12DE9BB6003E9972 /* HCDescribedAs.mm in Sources */ = {isa = PBXBuildFile; fileRef = A34CFDAE12DE9BB6003E9972 /* HCDescribedAs.mm */; };
@@ -112,6 +112,8 @@
 /* Begin PBXFileReference section */
 		A34C001112DF4808003E9972 /* LRMimic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMimic.h; sourceTree = "<group>"; };
 		A34C001212DF4808003E9972 /* LRMimic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMimic.m; sourceTree = "<group>"; };
+		A34C00CD12DF5405003E9972 /* AssertEventually.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssertEventually.h; sourceTree = "<group>"; };
+		A34C00CE12DF5405003E9972 /* AssertEventually.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssertEventually.m; sourceTree = "<group>"; };
 		A34CFC9212DE97AD003E9972 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34CFC9312DE97AD003E9972 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		A34CFCA212DE983E003E9972 /* LRResty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LRResty.framework; sourceTree = "<group>"; };
@@ -240,8 +242,6 @@
 		A34CFD3212DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
 		A34CFD3312DE985C003E9972 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
 		A34CFD3412DE985C003E9972 /* NSValue+KiwiAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+KiwiAdditions.m"; sourceTree = "<group>"; };
-		A34CFD9612DE99BF003E9972 /* AssertEventually.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssertEventually.h; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.h"; sourceTree = SOURCE_ROOT; };
-		A34CFD9712DE99BF003E9972 /* AssertEventually.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssertEventually.m; path = "../../../../Downloads/gist506353-e41efd3c7021dad3ab3525e18cc519fa32786ba2/AssertEventually.m"; sourceTree = SOURCE_ROOT; };
 		A34CFDA912DE9BB6003E9972 /* HCAllOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAllOf.h; sourceTree = "<group>"; };
 		A34CFDAA12DE9BB6003E9972 /* HCAllOf.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HCAllOf.mm; sourceTree = "<group>"; };
 		A34CFDAB12DE9BB6003E9972 /* HCAnyOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAnyOf.h; sourceTree = "<group>"; };
@@ -400,9 +400,9 @@
 		A34CFCA112DE982B003E9972 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				A34C00CD12DF5405003E9972 /* AssertEventually.h */,
+				A34C00CE12DF5405003E9972 /* AssertEventually.m */,
 				A34CFDA312DE9B8F003E9972 /* Hamcrest */,
-				A34CFD9612DE99BF003E9972 /* AssertEventually.h */,
-				A34CFD9712DE99BF003E9972 /* AssertEventually.m */,
 				A34CFCB712DE985C003E9972 /* Kiwi */,
 			);
 			name = External;
@@ -904,7 +904,6 @@
 				A34CFD6B12DE985C003E9972 /* NSObject+KiwiStubAdditions.m in Sources */,
 				A34CFD6C12DE985C003E9972 /* NSObject+KiwiVerifierAdditions.m in Sources */,
 				A34CFD6D12DE985C003E9972 /* NSValue+KiwiAdditions.m in Sources */,
-				A34CFD9812DE99BF003E9972 /* AssertEventually.m in Sources */,
 				A34CFDFB12DE9BB6003E9972 /* HCAllOf.mm in Sources */,
 				A34CFDFC12DE9BB6003E9972 /* HCAnyOf.mm in Sources */,
 				A34CFDFD12DE9BB6003E9972 /* HCDescribedAs.mm in Sources */,
@@ -943,6 +942,7 @@
 				A34CFEAE12DEA453003E9972 /* MimicSpec.m in Sources */,
 				A34CFEC412DF34BD003E9972 /* MimicSpecWithWrapper.m in Sources */,
 				A34C001312DF4808003E9972 /* LRMimic.m in Sources */,
+				A34C00CF12DF5405003E9972 /* AssertEventually.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
