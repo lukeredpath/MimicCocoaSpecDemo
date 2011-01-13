@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
-gem "mimic", :git => "git://github.com/lukeredpath/mimic.git", :branch => "develop"
+gem "mimic", "~> 0.4.0"
 

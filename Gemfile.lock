@@ -1,20 +1,12 @@
-GIT
-  remote: git://github.com/lukeredpath/mimic.git
-  revision: 6a1517d7ce6f97877f7d41632dd54a48ce84ef46
-  branch: develop
+GEM
+  remote: http://rubygems.org/
   specs:
-    mimic (0.3.0)
-      daemons
+    json (1.4.6)
+    mimic (0.4.0)
       json
       plist
       rack
       sinatra
-
-GEM
-  remote: http://rubygems.org/
-  specs:
-    daemons (1.1.0)
-    json (1.4.6)
     plist (3.1.0)
     rack (1.2.1)
     sinatra (1.1.2)
@@ -26,4 +18,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mimic!
+  mimic (~> 0.4.0)
