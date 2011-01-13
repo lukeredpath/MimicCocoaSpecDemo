@@ -37,9 +37,32 @@ describe(@"Testing using Mimic to stub HTTP requests with an Objective-C wrapper
         }];
       }
     }];
-    
-    // wait for the response body and check it is correct
+
     assertEventuallyThat(&responseBody, equalTo(@"pong"));
+  });
+  
+  it(@"should allow multiple HTTP endpoints to be stubbed and immediately tested", ^{
+    __block NSString *responseBodyOne = nil;
+    __block NSString *responseBodyTwo = nil;
+    
+    [LRMimic configure:^(LRMimic *mimic) {
+      [[mimic get:@"/ping"] andReturnResponse:@"pong" withStatus:200];
+      [[mimic get:@"/wiff"] andReturnResponse:@"waff" withStatus:200];
+    }];
+    
+    [LRMimic stubAndCall:^(BOOL success) {
+      if (success) {
+        [[LRResty client] get:@"http://localhost:11988/ping" withBlock:^(LRRestyResponse *response) {
+          responseBodyOne = [[response asString] copy];
+        }];
+        [[LRResty client] get:@"http://localhost:11988/wiff" withBlock:^(LRRestyResponse *response) {
+          responseBodyTwo = [[response asString] copy];
+        }];
+      }
+    }];
+
+    assertEventuallyThat(&responseBodyOne, equalTo(@"pong"));
+    assertEventuallyThat(&responseBodyTwo, equalTo(@"waff"));
   });
   
 });
