@@ -1,0 +1,3 @@
+[submodule "External/Kiwi"]
+	path = External/Kiwi
+	url = https://github.com/alding/Kiwi.git
